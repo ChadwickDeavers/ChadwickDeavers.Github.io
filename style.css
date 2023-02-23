@@ -1,8 +1,9 @@
 html {
-    display:grid;
-    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
-    background-position:bottom;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-position:absolute;
+
     animation-name: html;
     animation-duration: 2000000s;
 }
@@ -50,25 +51,14 @@ footer {
 @media only screen and (max-width:320px) {
 
 }
-.file {
-    max-width: 100%;
-    max-height: auto;
-    margin-left: 2.5rem;
-    padding: 1px;
-    border: 1px solid black;
-    background-color: rgba(192, 245, 255, 0.466);
-    border-radius: 2px;
-    grid-row: 1;
-    grid-column: 2;
+.dash {
+    position: absolute;
+    top: 60px;
+    
 }
-.file1 {
-    border: 2px solid black;
-    margin-left: 2.5rem;
-    padding: 1px;
-    border-radius: 1rem;
-    background-color: #fcfcfc8e;
-    grid-row: 1;
-    grid-column: 2;
+#const {
+    position: center;
+
 }
     /*style*/
 .nav {
@@ -127,9 +117,11 @@ a:visited {
     right: 9%;
     top: 3px;
 }
-
-.break {
-    border-bottom: 2ps solid black;
+.banner_img2 {
+    position: absolute;
+    
+    justify-content: center;
+    z-index: -1;
+    left: 2%;
+    top: 2px;
 }
-
-
