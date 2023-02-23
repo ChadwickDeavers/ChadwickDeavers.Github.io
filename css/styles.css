@@ -1,0 +1,37 @@
+.nav {
+    display:flexbox;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background: #0c0909;
+    font-size: 1rem;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 100px;
+    border-radius: 6px;
+    transition: all 500ms;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ a:link {
+    color: rgb(167, 235, 247);
+    text-decoration: none;
+ }
+ a:visited {
+    color: rgb(167, 235, 247);
+    text-decoration: none;
+ }
+ .nav:hover {
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+    transform: translateY(-3px) scale(1.1);
+    transition: ease-in-out;
+    filter: hue-rotate(180deg);
+    transform-origin: center;
+ } 
