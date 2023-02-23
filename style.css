@@ -28,9 +28,25 @@ footer {
         transform:rotate(0deg);
     }
     to {
-        transform:rotate(3060deg);
+        transform:rotate(3240deg);
     }
 }
+@keyframes banner {
+    from {
+        transform: translateY(-3px);
+    } to {
+        transform:translateY(3px);
+}
+}
+@keyframes banner2{
+    from {
+        transform: translateY(6px);
+    } to {
+        transform:translateY(-6px);
+}
+}
+
+
 @media only screen and (max-width:320px) {
 
 }
@@ -80,7 +96,7 @@ a:link {
    text-decoration: none;
 }
 a:visited {
-   color: rgb(167, 235, 247);
+   color: rgb(167, 235, 247); 
    text-decoration: none;
 }
 .nav:hover {
@@ -92,54 +108,28 @@ a:visited {
 } 
 .banner {
     position:absolute;
-    transform: translateY(-3px) scale(1.1);
-    border-radius: 2rem;
+    animation: banner 2s alternate-reverse infinite;
+    z-index: 1;
     font-size: 2rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    top: 3%;
-    left: 75%;
-    width: 20%;
-    height: 5%;
-    padding-top: 1.54rem;
-    padding-bottom: 1.5rem;
+    right: 11.5%;
+    top: 65px;
     max-width: 200px;
     text-align: center;
     justify-content: center;
     color: white;
-    background-color: rgba(6, 143, 1, 0.61);
-    background-image: linear-gradient(rgba(211, 248, 3, 0.459), rgba(241, 4, 241, 0.849));
+}
+.banner_img {
+    position: absolute;
+    animation: banner 2s alternate-reverse infinite;
+    justify-content: center;
+    max-width: 200px;
+    right: 9%;
+    top: 3px;
 }
 
 .break {
     border-bottom: 2ps solid black;
 }
-.spin {
-    transition: transform 0.5s;
-    animation-name: spin;
-    animation-duration: 200s;
-}
-.spin:current {
-    transform: translateX(12px) scale(1.0);
-    filter: hue-rotate(180deg);
-    transform-origin: center;
-}
-.button {
-    content: About Us;
-    font-family: sans-serif;
-    color: #ff0000;
-    font-size: 40px;
-    font-weight: bold;
-    text-shadow: 0px 3px 0px #669252;
-    background-color: #ffff00;
-    box-shadow: 0px 6px 10px #00ff00;
-    padding-top: 5px;
-    padding-bottom: 6px;
-    padding-left: 5px;
-    padding-right: 5px;
-    border-top: 0px solid #0000ff;
-    border-bottom: none;
-    border-left: none;
-    border-right: none;
-    border-radius: 5px;
-  }
-  
+
+
