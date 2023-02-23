@@ -5,11 +5,15 @@ html {
    background-position:bottom;
    animation-name: html;
    animation-duration: 2000000s;
+   background-image: linear-gradient(rgb(194, 248, 44), rgb(134, 4, 4));
 }
 footer {
-   position: absolute;
+   position: fixed;
    bottom: 0;
    text-align: center;
+   background-color: blue;
+   color: yellow ;
+   opacity: 0.8;
 }
 @keyframes html {
    from {
@@ -30,27 +34,10 @@ footer {
 @media only screen and (max-width:320px) {
 
 }
-.file {
-   max-width: 100%;
-   max-height: auto;
-   margin-left: 2.5rem;
-   padding: 1px;
-   border: 1px solid black;
-   background-color: rgba(192, 245, 255, 0.466);
-   border-radius: 2px;
-   grid-row: 1;
-   grid-column: 2;
+
+.dash {
+   position:fixed;
 }
-.file1 {
-   border: 2px solid black;
-   margin-left: 2.5rem;
-   padding: 1px;
-   border-radius: 1rem;
-   background-color: #fcfcfc8e;
-   grid-row: 1;
-   grid-column: 2;
-}
-   /*style*/
 .nav {
   display:flexbox;
   flex-direction:column;
@@ -59,7 +46,6 @@ footer {
   background: #0c0909;
   font-size: 1rem;
   color: #fff;
- 
   height: 10%;
   width: 100px;
   border-radius: 6px;
