@@ -1,4 +1,3 @@
-import '/reiko.css';
 
 import * as THREE from './node_modules/three';
 
