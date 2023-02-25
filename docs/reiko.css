@@ -5,7 +5,15 @@ canvas {
   left: 0;
   animation: canvas 50s linear infinite;
 }
-
+header {
+  position: absolute;
+  top: 0;
+  left: 1;
+  animation: canvas 50s linear infinite;
+  color: white;
+  background-color: goldenrod;
+  border: 2px solid gold;
+}
 footer {
  position: absolute;
  color: white;
