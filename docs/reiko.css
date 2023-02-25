@@ -18,6 +18,9 @@ header {
   background-color: goldenrod;
   border: 2px solid gold;
 }
+h2 {
+  position: center;
+}
 footer {
  position: absolute;
  color: red;
