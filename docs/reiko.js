@@ -1,5 +1,5 @@
 import * as THREE from '../ChadwickDeavers.Github.io/docs/node_modules/three';
-import { OrbitControls } from '../ChadwickDeavers.Github.io/docs/node_modules/three/examples/jsm/controls/OrbitControls';
+import { OrbitControls } from '../ChadwickDeavers.Github.io/docs/node_modules/three/examples/jsm/controls/OrbitControls.js';
 
 
 
