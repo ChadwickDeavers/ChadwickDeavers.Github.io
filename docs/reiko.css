@@ -5,6 +5,10 @@ canvas {
   left: 0;
   animation: canvas 50s linear infinite;
 }
+ html {
+  background-color: rgb(124, 250, 187);
+  animation: canvas 50s linear infinite;
+ }
 header {
   position: absolute;
   top: 0;
