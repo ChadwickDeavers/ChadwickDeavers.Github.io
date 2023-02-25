@@ -16,11 +16,11 @@ header {
 }
 footer {
  position: absolute;
- color: blueviolet;
+ color: red;
  bottom: 0;
 }
 a {
-  color: white;
+  color: red;
 }
 audio {
  position: absolute;
