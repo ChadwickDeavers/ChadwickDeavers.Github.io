@@ -1,0 +1,36 @@
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  animation: canvas 50s linear infinite;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 1;
+  animation: canvas 50s linear infinite;
+  color: white;
+  background-color: goldenrod;
+  border: 2px solid gold;
+}
+footer {
+ position: absolute;
+ color: white;
+ bottom: 0;
+}
+a {
+  color: white;
+}
+audio {
+ position: absolute;
+ left: 200px;
+ bottom: 25px;
+}
+@keyframes canvas {
+  from {
+    filter: hue-rotate(0deg);
+  } to {
+    filter: hue-rotate(360deg);
+  }
+}

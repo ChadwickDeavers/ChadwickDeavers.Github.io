@@ -1,0 +1,93 @@
+html {
+   display:grid;
+   grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr ;
+   background-position:bottom;
+   animation-name: html;
+   animation-duration: 2000000s;
+   background-image: linear-gradient(rgb(194, 248, 44), rgb(134, 4, 4));
+}
+footer {
+   position: fixed;
+   bottom: 0;
+   text-align: center;
+   background-color: blue;
+   color: yellow ;
+   opacity: 0.8;
+}
+@keyframes html {
+   from {
+       filter: hue-rotate(0deg);
+   }
+   to {
+       filter: hue-rotate(61200000deg); 
+   }
+}
+@keyframes spin {
+   from {
+       transform:rotate(0deg);
+   }
+   to {
+       transform:rotate(3060deg);
+   }
+}
+@media only screen and (max-width:320px) {
+
+}
+
+.dash {  
+   position:fixed;
+}
+.nav {
+  display:flexbox;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  background: #0c0909;
+  font-size: 1rem;
+  color: #fff;
+  height: 10%;
+  width: 100px;
+  border-radius: 6px;
+  transition: all 500ms;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a:link {
+  color: rgb(167, 235, 247);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(167, 235, 247);
+  text-decoration: none;
+}
+.nav:hover {
+  box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+  transform: translateY(-3px) scale(1.1);
+  transition: ease-in-out;
+  filter: hue-rotate(180deg);
+  transform-origin: center;
+} 
+.banner {
+   position:absolute;
+   transform: translateY(-3px) scale(1.1);
+
+   font-size: 2rem;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   top: 3%;
+   left: 75%;
+   width: 20%;
+   height: 5%;
+   padding-top: 1.54rem;
+   padding-bottom: 1.5rem;
+   max-width: 200px;
+   text-align: center;
+   justify-content: center;
+   color: white;
+   background-color: rgba(6, 143, 1, 0.61);
+   background-image: linear-gradient(rgba(211, 248, 3, 0.459), rgba(241, 4, 241, 0.849));
+}
