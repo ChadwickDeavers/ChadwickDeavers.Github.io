@@ -1,8 +1,8 @@
 import '/reiko.css';
 
-import * as THREE from 'https://cdn.skypack.dev/three@0.132.2'; 
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js';
 
-import { OrbitControls } from 'https://cdn.skypack.dev/three@0.132.2/examples/jsm/controls/OrbitControls.js';
+import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js';
 
 
 
